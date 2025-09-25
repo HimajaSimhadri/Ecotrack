@@ -19,26 +19,26 @@ const PublicEngagement = () => {
   const [showAR, setShowAR] = useState(false);
 
   const districts = [
-    { name: 'Downtown', score: 94, population: 15240, rank: 1 },
-    { name: 'Tech Hub', score: 91, population: 8920, rank: 2 },
-    { name: 'Residential', score: 88, population: 22100, rank: 3 },
-    { name: 'Shopping', score: 85, population: 12600, rank: 4 },
-    { name: 'Industrial', score: 79, population: 5200, rank: 5 }
+    { name: 'KJSS', score: 94, population: 15240, rank: 1 },
+    { name: 'Bhimadole', score: 91, population: 8920, rank: 2 },
+    { name: 'VVIT University', score: 88, population: 22100, rank: 3 },
+    { name: 'VIVA', score: 85, population: 12600, rank: 4 },
+    { name: 'Thimmapuram', score: 79, population: 5200, rank: 5 }
   ];
 
   const achievements = [
-    { id: 1, name: 'Eco Warrior', points: 100, icon: '🌿', unlocked: true },
-    { id: 2, name: 'Sort Master', points: 150, icon: '♻️', unlocked: true },
-    { id: 3, name: 'Report Hero', points: 200, icon: '📸', unlocked: true },
-    { id: 4, name: 'Green Leader', points: 300, icon: '🏆', unlocked: false },
-    { id: 5, name: 'City Champion', points: 500, icon: '👑', unlocked: false }
+    { id: 1, name: 'Himaja', points: 100, icon: '🌿', unlocked: true },
+    { id: 2, name: 'Venkata Vijaya Lakshmi', points: 150, icon: '♻️', unlocked: true },
+    { id: 3, name: 'Tharun', points: 200, icon: '📸', unlocked: true },
+    { id: 4, name: 'Pathirana', points: 300, icon: '🏆', unlocked: false },
+    { id: 5, name: 'Draft Head', points: 500, icon: '👑', unlocked: false }
   ];
 
   const recentReports = [
-    { id: 1, user: 'Alex M.', location: 'Central Park', type: 'Full bin', points: 50, verified: true },
-    { id: 2, user: 'Sarah K.', location: 'Main Street', type: 'Damaged bin', points: 75, verified: true },
-    { id: 3, user: 'Mike R.', location: 'Tech Plaza', type: 'Overflow', points: 60, verified: false },
-    { id: 4, user: 'Lisa C.', location: 'School Zone', type: 'Maintenance', points: 40, verified: true }
+    { id: 1, user: 'Himaja', location: 'Central Park', type: 'Full bin', points: 50, verified: true },
+    { id: 2, user: 'Venkata Vijaya Lakshmi', location: 'Main Street', type: 'Damaged bin', points: 75, verified: true },
+    { id: 3, user: 'Pathirana', location: 'Tech Plaza', type: 'Overflow', points: 60, verified: false },
+    { id: 4, user: 'Dube', location: 'School Zone', type: 'Maintenance', points: 40, verified: true }
   ];
 
   const [gameActive, setGameActive] = useState(false);
