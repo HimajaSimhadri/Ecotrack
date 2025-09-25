@@ -16,8 +16,8 @@ const LiveOperations = () => {
   const [trucks, setTrucks] = useState([
     { 
       id: 'T-001', 
-      driver: 'Alex Chen', 
-      location: 'Downtown Plaza', 
+      driver: 'Himaja Simhadri', 
+      location: 'KJSS', 
       efficiency: 94, 
       battery: 87, 
       status: 'active',
@@ -28,8 +28,8 @@ const LiveOperations = () => {
     },
     { 
       id: 'T-002', 
-      driver: 'Maria Santos', 
-      location: 'Tech Hub', 
+      driver: 'Gaddam Venkata Vijaya Lakshmi', 
+      location: 'Guntur', 
       efficiency: 89, 
       battery: 62, 
       status: 'active',
@@ -40,7 +40,7 @@ const LiveOperations = () => {
     },
     { 
       id: 'T-003', 
-      driver: 'James Wilson', 
+      driver: 'Ram', 
       location: 'Residential Park', 
       efficiency: 91, 
       battery: 94, 
@@ -52,8 +52,8 @@ const LiveOperations = () => {
     },
     { 
       id: 'T-004', 
-      driver: 'Sarah Kim', 
-      location: 'Shopping District', 
+      driver: 'syam', 
+      location: 'Vijayawada', 
       efficiency: 96, 
       battery: 78, 
       status: 'active',
