@@ -3,11 +3,11 @@ import { MapPin, Truck, AlertTriangle, CheckCircle, Activity } from 'lucide-reac
 
 const CityOverview = () => {
   const [binData, setBinData] = useState([
-    { id: 1, x: 20, y: 30, level: 85, status: 'warning', district: 'Downtown' },
-    { id: 2, x: 45, y: 25, level: 95, status: 'critical', district: 'Tech Hub' },
-    { id: 3, x: 70, y: 40, level: 45, status: 'optimal', district: 'Residential' },
-    { id: 4, x: 25, y: 60, level: 70, status: 'optimal', district: 'Shopping' },
-    { id: 5, x: 80, y: 70, level: 90, status: 'warning', district: 'Industrial' },
+    { id: 1, x: 20, y: 30, level: 85, status: 'warning', district: 'Godavari' },
+    { id: 2, x: 45, y: 25, level: 95, status: 'critical', district: 'VVIT University' },
+    { id: 3, x: 70, y: 40, level: 45, status: 'optimal', district: 'VIVA' },
+    { id: 4, x: 25, y: 60, level: 70, status: 'optimal', district: 'KJSS' },
+    { id: 5, x: 80, y: 70, level: 90, status: 'warning', district: 'Brindhavan Gardens' },
     { id: 6, x: 60, y: 55, level: 30, status: 'optimal', district: 'Parks' },
   ]);
 
