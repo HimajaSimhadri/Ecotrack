@@ -17,10 +17,10 @@ const BinIntelligence = () => {
   const [isFraudAlert, setIsFraudAlert] = useState(false);
 
   const bins = [
-    { id: 'BIN-247-DT', name: 'Downtown Plaza', level: 73, temp: 24, status: 'normal' },
-    { id: 'BIN-891-TH', name: 'Tech Hub Center', level: 95, temp: 28, status: 'critical' },
-    { id: 'BIN-156-RS', name: 'Residential Park', level: 45, temp: 22, status: 'optimal' },
-    { id: 'BIN-334-SH', name: 'Shopping Mall', level: 88, temp: 26, status: 'warning' },
+    { id: 'BIN-247-DT', name: 'KJSS', level: 73, temp: 24, status: 'normal' },
+    { id: 'BIN-891-TH', name: 'VVIT University', level: 95, temp: 28, status: 'critical' },
+    { id: 'BIN-156-RS', name: 'Bhimadole', level: 45, temp: 22, status: 'optimal' },
+    { id: 'BIN-334-SH', name: 'Guntur', level: 88, temp: 26, status: 'warning' },
   ];
 
   const usagePattern = [
